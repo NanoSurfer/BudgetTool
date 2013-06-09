@@ -14,6 +14,7 @@ public class BudgetTool {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        BudgetGui myGui = new BudgetGui();
+        myGui.setVisible(true);
     }
 }
